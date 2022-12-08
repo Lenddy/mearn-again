@@ -68,4 +68,4 @@ const count = pokémon.filter( (item)=>
 else{return false}
 }).length;
 
-console.count(count)
+// console.count(count)

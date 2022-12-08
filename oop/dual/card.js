@@ -6,4 +6,4 @@ class Card {
 }
 
 
-export const Card = Card;
+export default  Card;

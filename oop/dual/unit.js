@@ -1,4 +1,4 @@
-import  Card  from "../dual/card";
+import {Card} from "./card";
 
 class Unit extends Card{
     constructor(name,cost, power , resilience){
