@@ -1,13 +1,10 @@
-
 import './App.css';
-
-
-import Form from './components/Form';
+import Form from './components/Fomr';
 
 function App() {
   return (
-    <div className="App container" >
-      <h1>submit handler</h1>
+
+    <div className="App" >
       <Form></Form>
     </div>
   );

@@ -1,0 +1,12 @@
+<script>
+	fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+		.then(
+			//after we get the data
+			(data) => {
+				return data.json(); //this is so that the computer can read the response(data) as json(dictionary)
+			}
+		)
+		.then((data) => {
+			console.log(`logging the data from the api \n ${data.json([{}])} `);
+		});
+</script>
