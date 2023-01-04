@@ -1,8 +1,10 @@
 const mongoose = require("mongoose")
 
+require("dotenv").config();
+
 //to connect to mongoDb(data base)
 mongoose.set("strictQuery",true) // this is so that only the field that you create are adde to your schema(document) and so you dont hve a warning
-mongoose.connect(`mongodb+srv://root:root@mearnprojects-1.vhrzvbi.mongodb.net/product_manager_db?retryWrites=true&w=majority`,
+mongoose.connect(process.env.key,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
